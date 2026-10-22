@@ -1,3 +1,5 @@
+-- Combine customer and website activity
+
 CREATE OR REPLACE VIEW analytics.customer_360_with_web_activity AS
 SELECT
     c.*,

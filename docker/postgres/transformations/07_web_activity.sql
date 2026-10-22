@@ -1,3 +1,5 @@
+-- Create a PostgreSQL table that stores summarized website activity for each website user.
+
 CREATE TABLE IF NOT EXISTS analytics.web_activity (
     web_user_id TEXT PRIMARY KEY,
 

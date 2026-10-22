@@ -1,3 +1,5 @@
+-- Create the final customer segments
+
 CREATE OR REPLACE VIEW analytics.customer_segments_with_web_activity AS
 SELECT
     contact_id,

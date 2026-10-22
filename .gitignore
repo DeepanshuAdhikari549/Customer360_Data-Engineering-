@@ -1,4 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
 # Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+
+# Data files
+data/raw/
+data/processed/
+
+# Build files
+build/
+dist/# Environment variables and secrets
 .env
 .env.*
 !.env.example

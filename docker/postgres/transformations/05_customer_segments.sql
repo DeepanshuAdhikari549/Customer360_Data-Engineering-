@@ -1,3 +1,5 @@
+-- Identify which customer each order belongs to.
+
 CREATE OR REPLACE VIEW analytics.customer_segments AS
 SELECT
     contact_id,

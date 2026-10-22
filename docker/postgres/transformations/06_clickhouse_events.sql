@@ -1,3 +1,5 @@
+-- Support the website-event portion of the project.
+
 CREATE TABLE IF NOT EXISTS customer360.web_events
 (
     event_time DateTime('UTC'),

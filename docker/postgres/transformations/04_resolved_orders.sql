@@ -1,3 +1,5 @@
+-- Identify which customer each order belongs to.
+
 CREATE OR REPLACE VIEW analytics.resolved_orders AS
 SELECT
     o.order_id,

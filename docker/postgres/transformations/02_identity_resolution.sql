@@ -1,3 +1,5 @@
+-- Connect a CRM customer with their website user ID using verified identity links.
+
 CREATE SCHEMA IF NOT EXISTS analytics;
 
 CREATE TABLE IF NOT EXISTS analytics.identity_resolution (

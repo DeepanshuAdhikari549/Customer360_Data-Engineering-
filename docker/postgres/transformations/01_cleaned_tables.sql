@@ -1,7 +1,3 @@
--- Phase 2: Create cleaned tables
--- Keep the original source tables unchanged.
-
--- Remove dependent analytics objects before rebuilding clean tables.
 DROP VIEW IF EXISTS analytics.customer_segments_with_web_activity;
 DROP VIEW IF EXISTS analytics.customer_360_with_web_activity;
 DROP VIEW IF EXISTS analytics.customer_segments;

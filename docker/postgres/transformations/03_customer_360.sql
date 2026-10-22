@@ -1,3 +1,5 @@
+-- Combine customer information from multiple sources into one profile.
+
 CREATE TABLE IF NOT EXISTS analytics.customer_360 (
     contact_id TEXT PRIMARY KEY,
     web_user_id TEXT,
